@@ -1,0 +1,16 @@
+.product-item {
+  padding: $small_padding;
+}
+
+@include mq($screen_sm_min) {
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@include mq($screen_md_min) {
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

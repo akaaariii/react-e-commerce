@@ -1,0 +1,10 @@
+@mixin flex_between {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@mixin mq($w) {
+  @media (min-width: $w) {
+    @content
+  }
+}
