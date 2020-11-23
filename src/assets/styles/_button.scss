@@ -1,0 +1,13 @@
+.btn {
+  background-color: transparent;
+  color: $white;
+  border: none;
+  font-weight: bold;
+  font-size: 1em;
+  cursor: pointer;
+  outline: none;
+
+  &:hover {
+    color: $nav_hover_color;
+  }
+}

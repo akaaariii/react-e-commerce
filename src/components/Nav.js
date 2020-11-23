@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import Signup from '../components/Signup';
 
 const Nav = () => {
   const [clicked, setClicked] = useState(false);
@@ -17,6 +18,7 @@ const Nav = () => {
         <li><NavLink to='/' onClick={handleClick}>Home</NavLink></li>
         <li><NavLink to='/products' onClick={handleClick}>Products</NavLink></li>
         <li><NavLink to='/about' onClick={handleClick}>About</NavLink></li>
+        <Signup />
       </ul>
     </nav>
   )
